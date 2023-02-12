@@ -1,2 +1,2 @@
-public class RR {
+public class RR extends FCFS{
 }

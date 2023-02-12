@@ -1,2 +1,2 @@
-public class SJF {
+public class SJF extends FCFS{
 }

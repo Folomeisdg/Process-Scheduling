@@ -1,2 +1,2 @@
-public class STCF {
+public class STCF extends FCFS{
 }
