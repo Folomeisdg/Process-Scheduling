@@ -2,39 +2,36 @@ import java.util.Random;
 
 public class Task {
 
-    private double arriveTime;
-    private double duration;
-    private double priority;
-    private double pid;
+    private int arriveTime;
+    private int duration;
+    private int priority;
+    private int pid;
     private float taTime;
     private float responTime;
     private  float waiTime;
     private static Random rand;
 
-    public Task(double pid, double priority, double arriveTime, double duration) {
+    public Task(int pid, int priority, int arriveTime, int duration) {
         this.arriveTime = arriveTime;
         this.duration = duration;
         this.priority = priority;
         this.pid = pid;
     }
 
-    public double getArriveTime() {
+    public int getArriveTime() {
         return arriveTime;
     }
 
-    public double getDuration() {
+    public int getDuration() {
         return duration;
     }
 
-    public double getPriority() {
-        return priority;
-    }
 
-    public double getPid() {
+    public int getPid() {
         return pid;
     }
 
-    public void setPid(double pid) {
+    public void setPid(int pid) {
         this.pid = pid;
     }
 
